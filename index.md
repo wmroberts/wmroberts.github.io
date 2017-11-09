@@ -1,6 +1,10 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: home
 layout: home
 ---
+
+# Ring ding ding!
+
+Turn off your cellphones and take your seats. Class is about to start.
+
+Welcome to Dr. Skeleton's Art School.

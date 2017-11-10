@@ -1,0 +1,33 @@
+{% for post in site.posts %}
+  
+  {% if post.roll == page.roll %}
+  
+    <div class="ep-item">
+      <a href="{{ post.url }}">
+      
+        {% if post.thumb %}
+          <img class="ep-thumb" src="{{ base.url }}/{{ post.thumb }}">
+        {% else %}
+          <div class="ep-thumb-blank">
+            Dr. Skeleton's Art School | EP{{ post.ep }}
+          </div>
+        {% endif %}
+        
+        <h2 class="ep-no">
+          {{ post.date | | date: "%B %e, %Y" }} | EP{{ post.ep }}
+        </h2>
+        
+        <h1 class="ep-name">
+          {{ post.title }}
+        </h1>
+        
+        <div class="ep-desc">
+          {{ post.content | strip_html }}
+        </div>
+      
+      </a>
+    </div>
+    
+  {% endif %}
+  
+{% endfor %}

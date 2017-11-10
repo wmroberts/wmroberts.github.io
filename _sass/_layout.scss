@@ -1,0 +1,153 @@
+/**
+ * FOOTER
+ */
+
+.footer-cph {
+  background-color: $color-grey;
+  color: $color-text-lighter;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.footer-nav {
+  background-color: $color-theme-lighter;
+  font-family: $font-body;
+  font-weight: bold;
+  padding: 40px 0;
+}
+
+.footer-nav a {
+  color: $color-grey;
+  font-size: 14px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  &:hover {
+    color: lighten($color-grey, 50%);
+  }
+}
+
+
+/**
+ * NAV
+ */
+ 
+.banner {
+  margin: 15px 0;
+  max-width: 300px;
+}
+
+.nav {
+  background-color: white;
+  box-shadow: 0 0 10px $color-grey-darker;
+  font-family: $font-title;
+  font-weight: bold;
+  padding: 0 0 15px 0;
+}
+
+.nav-navbar {
+  font-family: $font-body;
+  text-transform: uppercase;
+}
+
+.nav-navbar a {
+  border-bottom: 5px solid $color-transparent;
+  padding: 0 10px 10px 10px;
+  &:hover {
+    border-bottom: 5px solid $color-theme;
+  }
+}
+
+
+/**
+ * MISC
+ */
+
+.page-content {
+  margin: 0 auto;
+  max-width: $content-width;
+  padding: 10px 10px 15px 10px;
+  text-align: left;
+  min-height: calc(100vh - 262px);
+}
+
+.masonry {
+  max-width: 100%;
+  text-align: center;
+}
+
+.profile-pic {
+  max-width: 250px;
+}
+
+
+/**
+ * HOME
+ */
+
+.home-container {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+}
+
+.home-item-left {
+  margin: 10px 10px 10px 0;
+}
+
+.home-item-right {
+  margin: 10px 0 10px 10px;
+}
+
+
+/**
+ * EPISODE ROLL
+ */
+
+.ep-item {
+  display: inline-block;
+  max-width:  390px;
+  padding: 10px 10px 20px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+ 
+.ep-thumb {
+  width: 390px;
+  height: 219px;
+}
+
+.ep-thumb-blank {
+  background-color: $color-grey-dark;
+  color: white;
+  font-weight: bold;
+  height: 219px;
+  line-height: 219px;
+  text-align: center;
+  width: 390px;
+}
+ 
+.ep-no {
+  color: $color-text-lighter;
+  font-family: $font-body;
+  font-size: 13px;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+ 
+.ep-name {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+ 
+.ep-time {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 3px;
+  position: relative;
+}

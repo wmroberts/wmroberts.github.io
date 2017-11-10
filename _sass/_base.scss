@@ -1,0 +1,78 @@
+/**
+ * BUILT-IN
+ */
+ 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, h1, h2, h3, p, blockquote, pre, ol, ul {
+  margin: 0;
+}
+
+
+/**
+ * USER DEFINED
+ */
+
+a {
+  color: $color-text;
+  text-decoration: none;
+}
+
+blockquote {
+  border-left: 5px solid $color-footer-dark;
+  font-style: italic;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+body {
+  background-color: $color-grey;
+  color: $color-text;
+  font-family: $font-body;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: $font-title;
+}
+
+iframe {
+  border: 1px solid $color-grey-dark;
+  display: block;
+  margin: auto;
+  max-width: calc(100% - 22px);
+  padding: 5px;
+}
+
+li {
+  border-bottom: 1px solid $color-box-line;
+  counter-increment: item;
+  list-style: none;
+  padding: 15px 0 15px 35px;
+  position: relative; 
+  &:before {
+    left: 0px;
+    color: $color-box-line;
+    content: counter(item);
+    display: inline-block;
+    font-family: $font-title;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+  }
+}
+
+ol {
+  background-color: $color-box;
+  color: $color-box-font;
+  margin: 10px 0;
+  padding: 20px 30px;
+}
+
+p {
+  line-height: 1.5;
+  padding: 5px 0;
+}

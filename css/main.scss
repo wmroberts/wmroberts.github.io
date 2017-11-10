@@ -1,0 +1,31 @@
+---
+---
+@charset "utf-8";
+
+$color-blockquote: #666666;
+$color-box: #FBF9E7;
+$color-box-font: #736458;
+$color-box-line: #DEDAB6;
+$color-footer: #EFF4F7;
+$color-footer-dark: darken($color-footer, 10%);
+$color-footer-darker: darken($color-footer, 20%);
+$color-grey: #FAFAFA;
+$color-grey-dark: darken($color-grey, 10%);
+$color-grey-darker: darken($color-grey, 20%);
+$color-text: #444444;
+$color-text-light: lighten($color-text, 10%);
+$color-text-lighter: lighten($color-text, 20%);
+$color-theme: #6A5099;
+$color-theme-light: lighten($color-theme, 15%);
+$color-theme-lighter: lighten($color-theme, 30%);
+$color-transparent: rgba(0, 0, 0, 0);
+
+$content-width: 700px;
+
+$font-title: "Playfair Display", sans-serif;
+$font-body:  "Karla", serif;
+
+@import
+  "base",
+  "layout"
+;

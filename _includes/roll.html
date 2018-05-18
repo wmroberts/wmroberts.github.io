@@ -5,13 +5,9 @@
     <div class="ep-item">
       <a href="{{ post.url }}">
       
-        {% if post.thumb %}
-          <img class="ep-thumb" src="{{ base.url }}/{{ post.thumb }}">
-        {% else %}
-          <div class="ep-thumb-blank">
-            Dr. Skeleton's Art School | EP{{ post.ep }}
-          </div>
-        {% endif %}
+        <div class="ep-thumb-blank">
+          Dr. Skeleton's Art School | EP{{ post.ep }}
+        </div>
         
         <h2 class="ep-no">
           {{ post.date | | date: "%B %e, %Y" }} | EP{{ post.ep }}
